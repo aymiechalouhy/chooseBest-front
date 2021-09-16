@@ -1,0 +1,67 @@
+body {
+    background-color: #5d8fc9;
+}
+
+.wel{
+    color: white;
+}
+.btnn-primary {
+	font-size: larger;
+	font-weight: bold ;
+	color: #5d8fc9 ;
+    background-color: white;
+    border: 2px solid white !important;
+}
+
+.btnn-primary:hover {
+   
+	color: white ;
+    background-color: #5d8fc9;
+}
+
+.wrapperr {	
+margin-top: 80px;
+margin-bottom: 80px;
+}
+
+.formm-signin {
+  max-width: 420px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #5d8fc9;
+  border: 4px solid white;  
+}
+::placeholder{
+	color: white;
+}
+input:nth-child(2){
+	color: white!important;
+	font-weight: bold;
+}
+input:nth-child(5){
+	color: white !important;
+	font-weight: bold;
+}
+
+	.formm-control {
+	  background-color: #5d8fc9;
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+	  width: 24.5em;
+	  border: 2px solid white;
+	}
+
+
+	  @media screen and (max-width:640px ) {
+		.formm-control {
+			width: 24em;
+		  }
+ }
+
+ @media screen and (max-width:640px ) {
+	.formm-control {
+		width: 14em;
+	  }
+}
