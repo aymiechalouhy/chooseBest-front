@@ -12,7 +12,8 @@ export default function LoginPage() {
           <form className="formm-signin">
             <div className="formm-signin-heading">
               {/* <center>     <img src={logo} className="image1" alt="Team Member" width="50%" /> </center> */}
-          <center> <h2 className="wel">  Welcome Admin </h2>  </center>
+          <center> <h2 className="wel">  Login Form </h2>  </center>
+          <br />
             </div>
 
             <input
@@ -20,7 +21,7 @@ export default function LoginPage() {
               type="text"
               name="username"
               className="formm-control"
-              placeholder="Username"
+              placeholder="Enter Username"
             /> 
             <br />  <br/>
             <input
@@ -28,10 +29,10 @@ export default function LoginPage() {
               type="password"
               name="password"
               className="formm-control"
-              placeholder="Password"
+              placeholder="Enter Password"
             />   
             <br />    <br /> 
-        <center>   <button  className="btnn-primary" type="submit">Login</button>  </center>  
+       <button  className="btnn-primary" type="submit">Submit</button>   
           </form>
         </div>
       </div>

@@ -3,20 +3,23 @@ body {
 }
 
 .wel{
-    color: white;
+    color: black;
 }
 .btnn-primary {
 	font-size: larger;
 	font-weight: bold ;
-	color: #5d8fc9 ;
-    background-color: white;
-    border: 2px solid white !important;
+	width: 400px;
+	height: 37px;
+	color: white ;
+    background-color: #017BFF;
+    border: 2px solid transparent !important;
+	border-radius: 30px;
 }
 
 .btnn-primary:hover {
    
-	color: white ;
-    background-color: #5d8fc9;
+	color: black ;
+    background-color: #017BFF;
 }
 
 .wrapperr {	
@@ -28,18 +31,20 @@ margin-bottom: 80px;
   max-width: 420px;
   padding: 15px 35px 45px;
   margin: 0 auto;
-  background-color: #5d8fc9;
-  border: 4px solid white;  
+  background-color: white;
+  border: 4px solid white; 
+  border-radius: 30px; 
 }
 ::placeholder{
-	color: white;
+	color: gray;
 }
 input:nth-child(2){
-	color: white!important;
+	color: black !important;
 	font-weight: bold;
 }
+
 input:nth-child(5){
-	color: white !important;
+	color: black !important;
 	font-weight: bold;
 }
 
@@ -52,7 +57,15 @@ input:nth-child(5){
 	  width: 24.5em;
 	  border: 2px solid white;
 	}
-
+	#root > div > div > div > div > form > input:nth-child(2){
+		border-radius: 30px;
+		background-color: #EBF0FC;
+	}
+	#root > div > div > div > div > form > input:nth-child(5){
+		border-radius: 30px;
+		/* border-color: black; */
+		background-color: #EBF0FC;
+	}
 
 	  @media screen and (max-width:640px ) {
 		.formm-control {

@@ -12,7 +12,9 @@ export default function ManageShops() {
     //     }
     //     fetchData();
     // }, [])
-
+   
+    
+    
     return (
        <>
        <div className="container">

@@ -8,23 +8,23 @@ import AdminNav from "./Components/AdminNav/AdminNav";
 import ManageShops from "./Pages/ManageShops/ManageShops";
 import InputShops from "./Pages/InputShops/InputShops";
 import HomeDiv from "./Components/HomeDiv/HomeDiv";
+import HomePage from "./Pages/HomePage/HomePage";
 
 
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <Slider />
       <HomeDiv/>
       <Footer />
-      <LoginPage />
-
+  
       <AdminNav />
       <Dashboard />
       <ManageShops />
-      <InputShops />
- 
-      
+      <InputShops /> */}
+ {/* <HomePage/> */}
+ <LoginPage />
     </div>
   );
 }

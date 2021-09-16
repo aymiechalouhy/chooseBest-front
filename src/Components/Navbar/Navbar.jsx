@@ -7,7 +7,7 @@ export default function Navbar() {
         <a className="active" href="#home">Home</a>
         {/* <a href="#about">About</a> */}
         <a href="#contact">Contact</a>
-        <input type="text" className="navy" placeholder="Search.." />
+        <input type="text" className="navy" placeholder="Search By Price: " />
           <button type="submit"><i className="fa fa-search"></i></button>
       </div>
     </>
